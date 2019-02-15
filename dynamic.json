@@ -1,0 +1,46 @@
+{
+	"profile": {
+		"img":"profile.png",
+		"name":"swetha",
+		"roll":"12345",
+		"place":"kakinada",
+		"des":"trainer cum developer"
+	},
+	"career":{
+		"info":"i want to seek a position where i can explore my toughts"
+	},
+	"education":[
+		{
+			"sno":"1",
+			"degree":"b.tech",
+			"institute":"pragati",
+			"per":"86",
+			"yop":"2018"
+		},
+		{
+			"sno":"2",
+			"degree":"intermediate",
+			"institute":"tirumala",
+			"per":"88",
+			"yop":"2014"
+		},
+		{
+			"sno":"3",
+			"degree":"s.s.c",
+			"institute":"tirumala",
+			"per":"86",
+			"yop":"2012"
+		}
+		],
+	"language":[
+		{
+			"lang":"english"
+		},
+		{
+			"lang":"telugu"
+	    },
+	    {
+	    	"lang":"hindi"
+	    }
+	]
+}

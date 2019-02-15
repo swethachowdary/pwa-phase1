@@ -1,0 +1,114 @@
+/*desktop view*/
+body{
+	background:aqua;
+}
+.maindiv{
+	background:pink;
+	display: flex;
+	justify-content: space-around;
+	margin:5%;
+	font-size: 80%;
+}
+.leftdiv{
+	background:lightgreen;
+	margin:4%;
+	border-radius:4%;
+	box-shadow:4px 4px 4px 4px;
+	width:45%;
+	text-align: center;
+	height:45%;
+}
+.rightdiv{
+    background:bisque;
+	margin:4%;
+	border-radius:4%;
+	box-shadow:4px 4px 4px 4px;
+	width:80%;
+	padding:2%;
+	height: 60%;
+}
+img{
+	border-radius:4%;
+	margin:4%;
+	width:40%;
+	height:30%;
+}
+table{
+	height: 20%;
+	width: 40%;
+}
+/*mobileview*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+body{
+	background:yellow;
+}
+.maindiv{
+	background:blue;
+	display:inline-block;
+	justify-content: space-around;
+	margin:2%;
+}
+.leftdiv{
+	background:pink;
+	justify-content: space-around;
+	margin:2%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:94%;
+	text-align: center;
+	height:45%;
+}
+.rightdiv{
+    background:bisque;
+    justify-content: space-around;
+	margin:2%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:94%;
+	padding:1%;
+	word-wrap: break-word;
+}
+img{
+	border-radius: 4%;
+	margin:4%;
+	width:40%;
+	height:30%;
+}
+}
+
+/*tabletview*/
+@media screen and (min-width: 481px) and (max-width: 720px) {
+body{
+	background:yellow;
+}
+.maindiv{
+	background:blue;
+	display: flex;
+	justify-content: space-around;
+	margin:5%;
+}
+.leftdiv{
+	background:pink;
+	margin:4%;
+	border-radius:4%;
+	box-shadow:4px 4px 4px 4px;
+	width:25%;
+	text-align: center;
+	height:45%;
+}
+.rightdiv{
+    background:bisque;
+	margin:4%;
+	border-radius:4%;
+	box-shadow:4px 4px 4px 4px;
+	width:60%;
+	padding:2%;
+}
+img{
+	border-radius:4%;
+	margin:4%;
+	width:40%;
+	height:30%;
+}
+}
+
